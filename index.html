@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Self PokeDex</title>
+    <link rel="shortout icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+    <div class="container">
+        <h1>My Pokedex</h1>
+        <div class="search-bar">
+            <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="Search">
+        </div>
+        <br/>
+        <ul id="wrapper" >
+    
+        <button onclick="show()" value="normal" class="button1">Normal</button>
+        <button onclick="show('fire')" class="button2">Fire</button>
+        <button onclick="show()" class="button3">Water</button>
+        <button onclick="show()" class="button4">Grass</button>
+        <button onclick="" class="button5">Electric</button>
+        <button onclick="" class="button6">Ice</button>
+        <button onclick="" class="button7">Fighting</button>
+        <button onclick="" class="button8">Poison</button>
+        <button onclick="" class="button9">Ground</button>
+        <button onclick="" class="button10">Flying</button>
+        <button onclick="" class="button11">Psychic</button>
+        <button onclick="" class="button12">Bug</button>
+        <button onclick="" class="button13">Rock</button>
+        <button onclick="" class="button14">Ghost</button>
+        <button onclick="" class="button15">Dragon</button>
+        <button onclick="" class="button16">Dark</button>
+        <button onclick="" class="button17">Steel</button>
+        <button onclick="" class="button18">Fairy</button>
+    </ul>
+    <div class="loader">
+        <img src="Loading.gif" alt="Loading...."/>
+    </div>
+        <ol id="pokedex"></ol>
+
+    </div>
+        <script src="app.js"></script>
+    </body>
+</html>

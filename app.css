@@ -1,0 +1,337 @@
+body{
+    background-color: red;
+    margin: 0;
+    font-family: rubik;
+    color: white;
+}
+
+
+.card{
+    background-color: #f4f4f4;
+    list-style: none;
+    padding: 40px;
+    color: #222;
+    text-align: center;
+}
+
+.card:hover{
+    animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+    20%{
+        transform: translateY(-6px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(-2px);
+    }
+    80%{ 
+        transform: translateY(-0px);
+    }
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.card-subtitle{
+    font-weight: lighter;
+    color: #666;
+    margin-top: 5px;
+}
+
+.card-image{
+    height: 180px;
+}
+
+#pokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.container{
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #A8A77A;
+  }
+  
+  .button1:hover {
+    background-color: #A8A77A;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #EE8130;
+  }
+  
+  .button2:hover {
+    background-color: #EE8130;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #6390F0;
+  }
+  
+  .button3:hover {
+    background-color: #6390F0;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #7AC74C;
+  }
+  
+  .button4:hover {background-color: #7AC74C;}
+  
+  .button5 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #F7D02C;
+  }
+  
+  .button5:hover {
+    background-color: #F7D02C;
+    color: white;
+  }
+
+  .button6 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #96D9D6;
+  }
+  
+  .button6:hover {
+    background-color: #96D9D6;
+    color: white;
+  }
+  
+  .button7 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #C22E28;
+  }
+  
+  .button7:hover {
+    background-color: #C22E28;
+    color: white;
+  }
+  
+  .button8 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #A33EA1;
+  }
+  
+  .button8:hover {
+    background-color: #A33EA1;
+    color: white;
+  }
+  
+  .button9 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #E2BF65;
+  }
+  
+  .button9:hover {background-color: #E2BF65;}
+  
+  .button10 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #A98FF3;
+  }
+  
+  .button10:hover {
+    background-color: #A98FF3;
+    color: white;
+  }
+
+  .button11 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #F95587;
+  }
+  
+  .button11:hover {
+    background-color: #F95587;
+    color: white;
+  }
+  
+  .button12 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #A6B91A;
+  }
+  
+  .button12:hover {
+    background-color: #A6B91A;
+    color: white;
+  }
+  
+  .button13 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #B6A136;
+  }
+  
+  .button13:hover {
+    background-color: #B6A136;
+    color: white;
+  }
+  
+  .button14 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #735797;
+  }
+  
+  .button14:hover {background-color: #735797;}
+  
+  .button15 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #6F35FC;
+  }
+  
+  .button15:hover {
+    background-color: #6F35FC;
+    color: white;
+  }
+
+  .button16 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #705746;
+  }
+  
+  .button16:hover {
+    background-color: #705746;
+    color: white;
+  }
+  
+  .button17 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #B7B7CE;
+  }
+  
+  .button17:hover {
+    background-color: #B7B7CE;
+    color: white;
+  }
+  
+  .button18 {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #D685AD;
+  }
+  
+  .button18:hover {
+    background-color: #D685AD;
+    color: white;
+  }
+
+  @media only screen and (max-width: 725px){
+    .card{
+      padding: 10px;
+  }
+  }
+  
+  .search-bar {
+    position: relative;
+      margin: 0 auto;
+      width: 95%;
+      max-width: 344px;
+      height: 48px;
+      background: #fff;
+      border-radius: 2px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+  }
+  
+  input {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 250px;
+      height: 40px;
+      left: 172px;
+      margin: 4px 0;
+      border: 0;
+      border-radius: 0;
+      outline: 0;
+      box-sizing: border-box;
+      font-size: 16px;
+      font-weight: 400;
+  }
+
+  .loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader > img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
